@@ -10,22 +10,22 @@ interface SearchAgentFormStates {
 class SearchAgentForm extends React.Component<{}, SearchAgentFormStates> {
   agentList = [
     {
-      avatar: 'http://mariusn.com/themes/reales/images/avatar-3.png',
-      name: 'Rust Cohle',
+      avatar: 'https://res.cloudinary.com/techgoddess/image/upload/v1599995346/lady-avatar_eueimj.jpg',
+      name: 'Jane Doe',
       title: 'Administrator',
-      address: 'Los Angeles, CA, USA'
+      address: 'Thomas Estate'
     },
     {
-      avatar: 'http://mariusn.com/themes/reales/images/avatar-4.png',
-      name: 'Rust Cohle',
+      avatar: 'https://res.cloudinary.com/techgoddess/image/upload/v1599993352/man_cjdygh.jpg',
+      name: 'John Doe',
       title: 'Administrator',
-      address: 'Los Angeles, CA, USA'
+      address: 'Lapai Close, Ajah'
     },
     {
-      avatar: 'http://mariusn.com/themes/reales/images/avatar-2.png',
-      name: 'Rust Cohle',
+      avatar: 'https://res.cloudinary.com/techgoddess/image/upload/v1599993352/man_cjdygh.jpg',
+      name: 'John Doe',
       title: 'Administrator',
-      address: 'Los Angeles, CA, USA'
+      address: 'Fagba, Lagos State'
     }
   ];
   constructor() {

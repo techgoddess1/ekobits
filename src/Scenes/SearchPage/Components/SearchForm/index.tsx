@@ -1,3 +1,4 @@
+
 import * as React from 'react';
 import './style.css';
 import SelectComponent from 'Components/SelectComponent';
@@ -6,33 +7,33 @@ import SearchMap from '../SearchMap';
 import { Icon } from 'react-fa';
 
 const houseData: any[] = [{
-  name: 'Modern Residence in New York',
-  address: ' 39 Remsen St, Brooklyn, NY 11201, USA',
+  name: 'Beautiful House',
+  address: ' 39 Divine Homes Estate Thomas Estate',
   beds: 3,
   toilets: 2,
   square: 20,
-  img: 'http://mariusn.com/themes/reales/images/prop/1-1.png'
+  img: 'https://res.cloudinary.com/techgoddess/image/upload/v1599987243/house-cloudinary-1_gkzqqh.png'
 }, {
-  name: 'Hauntingly Beautiful Estate',
-  address: ' 169 Warren St, Brooklyn, NY 11201, USA',
+  name: 'Beautiful House',
+  address: ' 39 Divine Homes Estate Thomas Estate',
   beds: 3,
   toilets: 2,
   square: 20,
-  img: 'http://mariusn.com/themes/reales/images/prop/2-1.png'
+  img: 'https://res.cloudinary.com/techgoddess/image/upload/v1599987234/house-cloudinary-2_ia8hl0.png'
 }, {
-  name: 'Modern Residence in New York',
-  address: ' 39 Remsen St, Brooklyn, NY 11201, USA',
+  name: 'Beautiful House',
+  address: ' 39 Divine Homes Estate Thomas Estate',
   beds: 3,
   toilets: 2,
   square: 20,
-  img: 'http://mariusn.com/themes/reales/images/prop/1-1.png'
+  img: 'https://res.cloudinary.com/techgoddess/image/upload/v1599987243/house-cloudinary-1_gkzqqh.png'
 }, {
-  name: 'Hauntingly Beautiful Estate',
-  address: ' 169 Warren St, Brooklyn, NY 11201, USA',
+  name: 'Beautiful House',
+  address: ' 39 Divine Homes Estate Thomas Estate',
   beds: 3,
   toilets: 2,
   square: 20,
-  img: 'http://mariusn.com/themes/reales/images/prop/2-1.png'
+  img: 'https://res.cloudinary.com/techgoddess/image/upload/v1599987234/house-cloudinary-2_ia8hl0.png'
 }];
 
 interface SearchFormState {

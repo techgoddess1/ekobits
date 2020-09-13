@@ -22,7 +22,7 @@ class AddNewPropertyForm extends React.Component<{}, {}> {
           <div className="Price col-xs-12 col-sm-6 col-md-6">
             <h4>Price</h4>
             <div className="input-group">
-              <span className="input-group-addon">$</span>
+              <span className="input-group-addon">#</span>
               <input type="text" name="" id="" className="form-control" />
             </div>
           </div>

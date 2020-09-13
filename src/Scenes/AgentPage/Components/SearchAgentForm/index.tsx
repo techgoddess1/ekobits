@@ -10,64 +10,64 @@ interface SearchAgentFormStates {
 class SearchAgentForm extends React.Component<{}, SearchAgentFormStates> {
   agentList = [
     {
-      avatar: 'http://mariusn.com/themes/reales/images/avatar-3.png',
-      name: 'Rust Cohle',
+      avatar: 'https://res.cloudinary.com/techgoddess/image/upload/v1599993352/man_cjdygh.jpg',
+      name: 'Jane Doe',
       title: 'Administrator',
-      address: 'Los Angeles, CA, USA'
+      address: 'Lekki Epe Express Way'
     },
     {
-      avatar: 'http://mariusn.com/themes/reales/images/avatar-4.png',
-      name: 'Rust Cohle',
+      avatar: 'https://res.cloudinary.com/techgoddess/image/upload/v1600006069/log-hair_tzwb7u.jpg',
+      name: 'Yemisi Akintunde',
       title: 'Administrator',
-      address: 'Los Angeles, CA, USA'
+      address: 'Thomas Estate Ajah'
     },
     {
-      avatar: 'http://mariusn.com/themes/reales/images/avatar-2.png',
-      name: 'Rust Cohle',
+      avatar: 'https://res.cloudinary.com/techgoddess/image/upload/v1599993352/man_cjdygh.jpg',
+      name: 'Kunle Adebisi',
       title: 'Administrator',
-      address: 'Los Angeles, CA, USA'
+      address: 'Iju Ishaga'
     },
     {
-      avatar: 'http://mariusn.com/themes/reales/images/avatar-1.png',
-      name: 'Rust Cohle',
+      avatar: 'https://res.cloudinary.com/techgoddess/image/upload/v1599993352/man_cjdygh.jpg',
+      name: 'George Bush',
       title: 'Administrator',
-      address: 'Los Angeles, CA, USA'
+      address: 'Ikate'
     },
     {
-      avatar: 'http://mariusn.com/themes/reales/images/avatar-2.png',
-      name: 'Rust Cohle',
+      avatar: 'https://res.cloudinary.com/techgoddess/image/upload/v1600006069/log-hair_tzwb7u.jpg',
+      name: 'Ijeoma Okoro',
       title: 'Administrator',
-      address: 'Los Angeles, CA, USA'
+      address: 'Imo state'
     },
     {
-      avatar: 'http://mariusn.com/themes/reales/images/avatar-1.png',
-      name: 'Rust Cohle',
+      avatar: 'https://res.cloudinary.com/techgoddess/image/upload/v1600006069/log-hair_tzwb7u.jpg',
+      name: 'Confidence Isam',
       title: 'Administrator',
-      address: 'Los Angeles, CA, USA'
+      address: 'Cross River'
     },
     {
-      avatar: 'http://mariusn.com/themes/reales/images/avatar-2.png',
-      name: 'Rust Cohle',
+      avatar: 'https://res.cloudinary.com/techgoddess/image/upload/v1600006069/log-hair_tzwb7u.jpg',
+      name: 'Gbadamosi Cynthia',
       title: 'Administrator',
-      address: 'Los Angeles, CA, USA'
+      address: 'Igando'
     },
     {
-      avatar: 'http://mariusn.com/themes/reales/images/avatar-1.png',
-      name: 'Rust Cohle',
+      avatar: 'https://res.cloudinary.com/techgoddess/image/upload/v1599995346/lady-avatar_eueimj.jpg',
+      name: 'Bobby Chukwu',
       title: 'Administrator',
-      address: 'Los Angeles, CA, USA'
+      address: 'VGC'
     },
     {
-      avatar: 'http://mariusn.com/themes/reales/images/avatar-2.png',
-      name: 'Rust Cohle',
+      avatar: 'https://res.cloudinary.com/techgoddess/image/upload/v1599995346/lady-avatar_eueimj.jpg',
+      name: 'Mark Ikem',
       title: 'Administrator',
-      address: 'Los Angeles, CA, USA'
+      address: 'Iju Ishaga'
     },
     {
-      avatar: 'http://mariusn.com/themes/reales/images/avatar-1.png',
-      name: 'Rust Cohle',
+      avatar: 'https://res.cloudinary.com/techgoddess/image/upload/v1599995346/lady-avatar_eueimj.jpg',
+      name: 'Caleb Oyebode',
       title: 'Administrator',
-      address: 'Los Angeles, CA, USA'
+      address: 'Agege'
     }
   ];
   constructor() {
