@@ -22,11 +22,11 @@ class Caption extends React.Component<CaptionProps, {}> {
     }
     return (
       <div className="homeCaption">
-        <div className="homeTitle">{getTranslation(this.props.lang, 'Now it\'s easy to find your future home')}</div>
+        <div className="homeTitle">{getTranslation(this.props.lang, 'Treasure Home Realtors')}</div>
         <div className="homeSubtitle">
-          {getTranslation(this.props.lang, 'With Famireales - Real Estate HTML Template')}
+          {getTranslation(this.props.lang, '')}
         </div>
-        <Link className="btn btn-black" to="/search">{getTranslation(this.props.lang, 'Learn More')}</Link>
+        <Link className="btn btn-danger" to="/search">{getTranslation(this.props.lang, 'View Houses')}</Link>
       </div>
     );
   }

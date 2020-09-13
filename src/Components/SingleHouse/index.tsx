@@ -13,13 +13,13 @@ class SingleHouse extends React.Component<SingleHouseProps, {}> {
           <div className="figure">
             <img src={this.props.data.img} alt="image" />
             <div className="figCaption">
-              <div>$1,550,000</div>
-              <span className="icon-eye"> 200</span>
+              <div>#1,550,000</div>
+              {/* <span className="icon-eye"> 200</span>
               <span className="icon-heart"> 54</span>
-              <span className="icon-bubble"> 13</span>
+              <span className="icon-bubble"> 13</span> */}
             </div>
             <div className="figView"><span className="icon-eye" /></div>
-            <div className="figType">FOR SALE</div>
+            <div className="figType">Selling | Letting</div>
           </div>
           <h2>{this.props.data.name}</h2>
           <div className="cardAddress"><span className="icon-pointer" />
