@@ -1,8 +1,8 @@
 This project was bootstrapped with [Create React App Typescript]
 
-Owner: huykhanh.cse@gmail.com
+Owner: francesoparaocha@gmail.com
 
-Demo: https://kangel7-2.000webhostapp.com/
+Demo: 
 
 ## Usage
 
