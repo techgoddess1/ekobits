@@ -5,12 +5,12 @@ import Dashboard from 'Components/DashboardLayout';
 import SingelHouse from 'Components/SingleHouse';
 
 const houseData = {
-  name: 'Modern Residence in New York',
-  address: ' 39 Remsen St, Brooklyn, NY 11201, USA',
+  name: 'Beautiful 3 Bedroom en-suite Apartmnet',
+  address: ' 4 Yemi Suara, Abraham Adesanya Bustop',
   beds: 3,
   toilets: 2,
   square: 20,
-  img: 'http://mariusn.com/themes/reales/images/prop/1-1.png'
+  img: 'https://res.cloudinary.com/techgoddess/image/upload/v1599987243/house-cloudinary-1_gkzqqh.png'
 };
 
 class MyhousePage extends React.Component<RouteComponentProps<{id: string}>, {}> {
